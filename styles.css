@@ -1,0 +1,47 @@
+body {
+  font-family: Arial;
+  background: #f5f5f5;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+.profile-img {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.prof-card {
+  background: #ddd;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
